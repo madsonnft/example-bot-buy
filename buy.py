@@ -33,7 +33,7 @@ def buy(tier):
             tx = web3.eth.get_transaction(tx_hash)
             print(f'transaction: {tx}')
         except Exception as e:
-            if hasattr(e, 'message') and e.message != 'execution reverted: sale has not begun':
+            if e != 'execution reverted: sale has not begun':
                 print(e)
                 break
 
