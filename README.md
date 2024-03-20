@@ -4,8 +4,8 @@
 Example of interacting with a contract using a bot
 
 ## Requirements
-Python 3
-Pip
+* Python 3
+* Pip
 
 ## Installation
 pip install -r requirements.txt
